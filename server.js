@@ -1,8 +1,8 @@
 var express = require('express'),
-    app     = express(),
+    app     = express();
 
 var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080,
-    ip   = process.env.IP   || process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0',
+    ip   = process.env.IP   || process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0';
 
 app.use(express.static(__dirname + '/dist'));
 
