@@ -8,8 +8,8 @@
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
     "lint": "eslint --ext .js,.vue src",
-    "test": "IP=0.0.0.0 PORT=3030 mocha --timeout 5000 tests/*_test.js"
-    "start": "node server.js",
+    "test": "IP=0.0.0.0 PORT=3030 mocha --timeout 5000 tests/*_test.js",
+    "start": "node server.js"
   },
   "dependencies": {
     "chai": "^3.5.0",
@@ -25,5 +25,5 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  },
+  }
 }
